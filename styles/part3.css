@@ -1,0 +1,195 @@
+* {
+	font-family: 'Varela Round', sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container-part-3 {
+	max-width: 1030px;
+	margin: 0 auto;
+}
+
+p {
+	color: #ccc;
+}
+
+.container {
+	margin-top: 70px;
+	height: 500px;
+}
+
+.container .grid img {
+	height:176px;
+	width:176px;
+	display: block;
+	margin: 0 auto;
+	
+}
+
+.container .grid h3 {
+	font-size: 14px;
+	margin-top: 40px;
+}
+
+.container .grid .para-left {
+	line-height: 1.6;
+}
+
+.container .grid h3,.para-left {
+	max-width: 176px;
+}
+
+.link{
+	
+ 	text-decoration: none;
+	color: #C1E0F5;
+}
+
+.link:hover, .link:active {
+	color: #2DACD1;
+}
+
+.wrapper {
+	width: 100%;
+	background-color: #F4F7F8;
+	margin-top: 90px;
+}
+.companies {
+	max-width: 1030px;
+	margin:0 auto;
+	text-align: center;
+	border-bottom: 1px solid #DEE7EA;
+	overflow: auto;
+	overflow-y: hidden;
+}
+
+.companies h1 {
+	font-size: 15px;
+	padding-top: 90px;
+	margin-bottom: 25px;
+}
+
+.companies #image-companies {
+	width: 767px;
+}
+
+
+.test {
+	float: left;
+	margin-right: 32px;
+	margin-left: 32px;
+}
+
+
+.class1 {
+	margin-left: 85px;
+}
+
+.center {
+	text-align: center;
+}
+
+.floaty {
+	float: left;
+	width: 50%;
+	position: relative;
+	border-top: 1px solid #DEE7EA;
+	border-right: 1px solid #DEE7EA;
+	margin-top: 40px;
+	padding: 0 15px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+.floaty #quote {
+	position: absolute;
+	top: 15px;
+	left: 10px;
+	height: 80px;
+	width: 100px;
+	z-index: 1;
+}
+
+.floaty p,.avatar {
+	z-index: 2;
+}
+
+.floaty p {
+	max-width: 400px;
+	line-height: 1.9;
+	font-style: italic;
+	position: relative;
+	text-align: left;
+    top: 20px;
+    left: 25px;
+    font-size: 17px;
+}
+
+.avatar img {
+	float: left;
+	border-radius: 50%;
+	position: relative;
+	left: 25px;
+	margin-top: 20px;
+}
+
+.avatar h4 {
+	float: left;
+	position: relative;
+	left: 33px;
+	top:15px;
+	color: #97A4AD;
+	font-style: bold;
+}
+
+.avatar p {
+	position: relative;
+	top: 35px;
+	left: -51px;
+	font-style: normal;
+	float: left;
+}
+
+.floaty2 {
+	float: right;
+	width: 50%;
+	margin-top: 40px;
+	height: 350px;
+	border-top: 1px solid #DEE7EA;
+}
+
+.floaty2 img {
+	position: relative;
+	top: 80px;
+}
+
+#final {
+	float: left;
+	position: relative;
+	left: 35px;
+	top: 80px;
+}
+
+#final h4 {
+	margin-bottom: 5px;
+	color: #97A4AD;
+	position: relative;
+	left: -5px;
+
+}
+
+#final p {
+	position: relative;
+	margin-top: 0;
+	left: 45px;
+}
+
+.center h1{
+	font-size: 24px;
+}
