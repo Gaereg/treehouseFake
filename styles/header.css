@@ -173,4 +173,5 @@ header>nav>img{
 
 .inputButton:hover{
 	background-color: #3ac162;
+	cursor: pointer;
 }
