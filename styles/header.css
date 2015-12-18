@@ -23,7 +23,6 @@ header>nav>ul{
 	float: right;
 	font-size:16px;
 	font-weight: bold;
-	color: #636363;
 	position: relative;
 	margin-right: 13%;
     top: 50%;
@@ -34,13 +33,18 @@ header>nav>ul{
     transform: translateY(-50%);
 }
 
-header>nav>ul>li{
+header>nav>ul>a>li{
 	display: inline;
 	margin-right: 40px;
 }
 
-header>nav>ul>li:hover{
+header>nav>ul>a>li:hover{
 	color: black;
+}
+
+header a{
+	text-decoration: none;
+	color: #636363;
 }
 
 header>nav>img{
@@ -94,6 +98,7 @@ header>nav>img{
 
 #headerBlabla>p{
 	font-size: 20px;
+	color: white;
 }
 
 #form{
@@ -118,6 +123,7 @@ header>nav>img{
 #form>header>p{
 	position: relative;
     top: 50%;
+    color: white;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -163,4 +169,8 @@ header>nav>img{
 	font-size: 17px;
 	font-weight: bold;
 	margin: 25px 0 0 40px;
+}
+
+.inputButton:hover{
+	background-color: #3ac162;
 }
