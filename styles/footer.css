@@ -1,0 +1,273 @@
+/* fichier édité par DIANA TECHER :-) */
+
+
+footer a
+{
+	text-decoration:none;
+	color: #57637C;
+}
+
+.diana
+{
+    background-color:#5fcf80;
+	width:100%;
+	height:500px;
+	padding:2px;
+   }
+
+
+.planpanel1
+{
+	
+	background-color:white;
+	position:relative;
+    top: 110px;
+    left: 200px;
+	width:450px;
+	height:240px;
+	text-align:left;
+	padding:10px;
+	padding-left: 30px;
+	border-radius:5px;
+	box-shadow:0 2px #34ad58;
+}
+
+.planpanel1>h2
+{
+	color: #5D5D5E;
+	margin-left:12px;
+}
+
+#lipro ul li
+{
+	display : list-item;
+	list-style-image: url(../images/check1.jpg);
+	padding:5px;
+	margin-top: 10px;
+}
+
+
+.planpanel2
+{
+	background-color:white;
+	position:relative;
+	width:450px;
+	height:320px;
+    left: 700px;
+    bottom: 200px;
+	text-align:left;
+	padding:10px;
+	padding-left: 60px;
+	margin-right:225px;
+	border-radius:5px;
+	box-shadow: 0px 2px #34ad58;
+}
+
+.planpanel2 h2
+{
+	color: #5D5D5E;
+	margin-left:12px;
+}
+
+
+#libasic ul li
+{
+	display : list-item;
+	list-style-image: url(../images/check2.jpg);
+	padding:5px;
+	margin: 10px 0 10px 30px;
+
+}
+
+span {
+	float:right;
+	font-weight:lighter;
+	color:red;
+	font-size:25px;
+}
+
+.planpanel1 span {
+color:#5FCF80;
+}
+
+.planpanel2 span 
+{
+	color:#42B4D6;
+}
+
+
+footer p 
+{
+	text-align:center;
+	font-size:12px;
+	color: #57637C;
+}
+
+/*  1er bouton */
+.button1dt {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:#5fcf80;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0;
+	
+	display:inline-block;
+	color:#ffffff;
+	
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:50px;
+	line-height:50px;
+	width:420px;
+	text-decoration:none;
+	text-align:center;
+	margin-left:15px;
+	
+}.button1dt:hover {
+	background-color:#3AC162;
+}.button1dt:active {
+	position:relative;
+	top:1px;
+
+}
+/*2eme bouton */
+
+.button2dt 
+{
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:#42B4D6;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0;
+	
+	display:inline-block;
+	color:#ffffff;
+	
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:50px;
+	line-height:50px;
+	width:420px;
+	text-decoration:none;
+	text-align:center;
+	margin-left:15px;
+	
+}
+
+
+.button2dt:hover {
+	background-color:#3F8ABF;
+}
+
+.button2dt:active
+{
+	position:relative;
+	top:1px;
+	
+}
+
+footer ul img {
+height: 25px;  
+    
+}
+
+
+footer ul li {
+    display: inline-block;
+}
+
+#logon img {
+height: 50px;
+    
+}
+
+footer {
+ margin-top: 10%;
+    
+}
+
+#socialIcon{
+	width: 224px;
+	margin: auto;
+}
+
+footer li{
+	width: 41px;
+	height: 31px;
+}
+
+#twt{
+	background: url("../images/twt.jpg");
+}
+
+#twt:hover{
+	background: url("../images/tw2t.jpg");
+}
+
+#fb{
+	background: url("../images/fbk.jpg");
+}
+
+#fb:hover{
+	background: url("../images/fbk2.jpg");
+}
+
+#yt{
+	background: url("../images/ytb.jpg");
+}
+
+#yt:hover{
+	background: url("../images/ytb2.jpg");
+}
+
+#gg{
+	background: url("../images/ggl.jpg");
+}
+
+#gg:hover{
+	background: url("../images/ggl2.jpg");
+}
+
+#link{
+	background: url("../images/lnk.jpg");
+}
+
+#link:hover{
+	background: url("../images/lnk2.jpg");
+}
+
+#insta{
+	background: url("../images/ins.jpg");
+}
+
+#insta:hover{
+	background: url("../images/ins2.jpg");
+}
+
+/* fichier édité par DIANA TECHER :-) */

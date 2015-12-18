@@ -1,0 +1,140 @@
+article {
+  font-family: verdana;
+  width: 1030px;
+  margin: auto;
+  background-color: yellow;
+}
+
+article>h1{
+  text-align: center;
+  font-weight: lighter;
+  font-family: verdana;
+}
+
+article>p {
+  color:grey;
+  font-size: 17px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.gras {
+    line-height:50px;
+    color: #404040;
+    font-size: 15px;
+
+}
+.learn {
+  height: 220px;
+}
+.rose {
+  background-color: #fbaea8 ;
+  border-radius: 5px;
+  height: 200px;
+  width: 320px;
+  margin-left: 120px;
+  padding-top: 10px;
+  float: left;
+}
+
+#livre {
+  height: 170px;
+  margin-left: 80px;
+  margin-top: 20px;
+  float: left;
+}
+
+.learn>p {
+  width: 330px;
+  padding-top: 10px;
+  display: block;
+  padding-left: 60px;
+  float:left;
+  text-align: left;
+  margin-top: -10px;
+  margin-bottom: 48px;
+  font-size: 16px;
+  line-height:23px;
+  color:grey;
+
+}
+
+#ligneRose {
+  width: 300px;
+  margin-left: 26%;
+  height: 97px;
+  margin-top: 10px;
+}
+
+.bleu {
+  background-color: #C1E0F5 ;
+  border-radius: 5px;
+  height: 200px;
+  width: 320px;
+  margin-left: 567px;
+  margin-top: 52px;
+}
+
+#practice {
+  height: 170px;
+  float: left;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.practice>p {
+  margin-right: 83px;
+  padding-left: 80px;
+  display: block;
+  line-height:20px;
+  font-size: 16px;
+  color:grey;
+  text-align: left;
+  width: 380px;
+  float: right;
+}
+
+#ligneBleu {
+  width: 250px;
+  height: 183px;
+  margin-left: 314px;
+  float: left;
+
+}
+
+.vert {
+  background-color: #B8F5D2 ;
+  border-radius: 5px;
+  height: 200px;
+  width: 320px;
+  margin-left: 220px;
+  margin-top: -130px;
+}
+
+#earn {
+  height: 170px;
+  float: left;
+  margin-left: 80px;
+  margin-top: 20px;
+
+}
+.practice {
+  z-index: 1;
+}
+
+.earn {
+  z-index: 10;
+}
+
+.earn>p {
+  width: 380px;
+  padding-top: 30px;
+  padding-left: 220px;
+  float:left;
+  text-align: left;
+  margin-top: -10px;
+  margin-bottom: 60px;
+  font-size: 16px;
+  line-height:23px;
+  color:grey;
+}
