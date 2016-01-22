@@ -1,8 +1,3 @@
-RESULTATS ICI : http://uneadresse.free.fr/pages
-
-Super équipe! Merci @tous :-)
-(Diana)
-
 # treehouseFake
 
 Color : 
